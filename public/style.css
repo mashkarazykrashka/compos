@@ -1,0 +1,71 @@
+body {
+  background-image: linear-gradient(to right top, #6fd16b, #6ac772, #68bc77, #67b27b, #68a77d, #69aa85, #6bad8d, #6eb095, #6ec2a9, #6cd5bf, #67e8d7, #5ffbf1);
+  height: 100vh;
+}
+.user_name{
+  color: #DC143C;
+  text-align: right; 
+  margin-right: 20px;
+}
+
+.feedback {
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 40%;
+  padding: 30px 30px 6px 30px;
+  border: 1px solid rgba(0,0,0,.8);
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to right top, #051937, #004463, #007278, #3d9e74, #a9c46c);  overflow: hidden; 
+}
+
+textarea{
+  background: rgba(255, 255, 255, 0.4); 
+  width: 100%;
+  height: 110px;
+  border: 1px solid rgba(255,255,255,.6);
+  border-radius: 4px;
+  background-clip: padding-box; 
+  display:block;
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  font-weight: 300;
+  color:#fff;
+  padding-left:25px;
+  padding-right:20px;
+  padding-top:12px;
+  margin-bottom:20px;
+  overflow:hidden;
+}
+
+.name {
+  width: 100%;
+  height: 48px;
+  border: 1px solid rgba(255,255,255,.4);
+  border-radius: 4px;
+  background-clip: padding-box; 
+  display:block;
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  font-weight: 300;    
+  padding-left:20px;
+  padding-right:20px;
+  margin-bottom:20px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.button {
+  width: 138px;
+  height: 44px;
+  border-radius: 4px;
+  float:right;
+  margin-bottom: 20px;
+  border: 1px solid #253737;
+  background: #416b68;
+  background-image: -ms-linear-gradient(top, #6da5a3 0%, #416b68 100%);
+  padding: 10.5px 21px;
+  border-radius: 6px;
+  box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+  text-shadow: #333333 0 1px 0;
+  color: #e1e1e1;
+}
